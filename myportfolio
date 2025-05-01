@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buğra Demir - Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      color: #333;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    </header>
+    <header>
+    
+    <nav>
+      <a href="#about">Hakkımda</a>
+      <a href="#projects">Projeler</a>
+      <a href="#learning">Öğrenme</a>
+      <a href="#contact">İletişim</a>
+      <a href="https://www.linkedin.com/in/buğra-demir-3516091b6/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/buogra" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Im Buğra Demir,currently 2nd-year student at Kırıkkale University </p>
+  </section>
+
+  
+
+  <section id="learning">
+    <h2>My Learning</h2>
+    <ul>
+      <li>Deepening my expertise in advanced Python programming to develop AI-powered applications and leverage the full potential of the artificial intelligence ecosystem.</li>
+      <li>Enhancing my skills in Python libraries and image processing to contribute to our university's Technofest Unmanned Surface Vehicle (USV) Project, specifically in the areas of visual recognition and communication systems.</li>
+      <li>Expanding into mobile app development by learning the Dart programming language and using Flutter, with the long-term goal of transforming my innovative ideas into real-world applications.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Mail: bugraademirr2004@gmail.com</p>
+    <p>+905469733983</p>
+  </section>
+
+  <footer>
+    <p>Benimle iletişime geçmek için LinkedIn veya GitHub bağlantılarımı kullanabilirsiniz.</p>
+  </footer>
+</body>
+</html>
